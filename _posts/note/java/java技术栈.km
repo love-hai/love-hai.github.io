@@ -1,0 +1,37 @@
+{
+    "root": {
+        "data": {
+            "id": "cv6h6e4amao0",
+            "created": 1693459177277,
+            "text": "java技术栈",
+            "priority": 1
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "cv6h8uekaow0",
+                    "created": 1693459369454,
+                    "text": "mycat",
+                    "priority": 2,
+                    "progress": null,
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cv780uf3t740",
+                            "created": 1693534912541,
+                            "text": "MySQL",
+                            "priority": 3,
+                            "note": "学会使用非关联子查询"
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "structure",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}
