@@ -25,6 +25,8 @@ user:
   picAlt: "catbook"
   job: a category-centric theme
   aboutme: true # comment this out if you don't need the 'about' page.
+  
+plugins: ["jekyll-toc"]
 
 exclude:
   - README.md
@@ -38,6 +40,7 @@ defaults:
     values:
       layout: post
       comment: true   
+      toc: true
 
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 markdown: kramdown 
