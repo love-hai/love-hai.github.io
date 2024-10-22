@@ -6,18 +6,26 @@
 <body>
   <div class="content">
     {% if page.title %}
-    {% include toc.html html=content %}
+    <div class="container">
+      <div class="contents">
+        <article class="markdown-body">
+          <main class="main">
+            {{ content }}
+          </main>
+        </article>
+      </div>
+      <div class="table-of-contents">
+        <h2>Contents</h2>
+        {% include toc.html html=content %}
+      </div>
+    </div>
     {% else %}
     {% include header.html %}
     {% include mobile_menu.html %}
-    {% endif %}
-
     <main class="main">
-
       {{ content }}
-
     </main>
-
+    {% endif %}
   </div>
 
   {% include footer.html %}
