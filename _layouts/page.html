@@ -6,11 +6,11 @@
 <body>
   <div class="content">
     {% if page.title %}
-    {% include toc.html %}
+    {% include toc.html html=content %}
     {% else %}
     {% include header.html %}
-    {% endif %}
     {% include mobile_menu.html %}
+    {% endif %}
 
     <main class="main">
 
