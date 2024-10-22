@@ -5,14 +5,16 @@
 
 <body>
   <div class="content">
-
+    {% if page.title %}
+    {% toc.html %}
+    {% else %}
     {% include header.html %}
-
+    {% endif %}
     {% include mobile_menu.html %}
-    
+
     <main class="main">
 
-    {{ content }}
+      {{ content }}
 
     </main>
 
@@ -21,4 +23,5 @@
   {% include footer.html %}
   {% include js.html %}
 </body>
+
 </html>
