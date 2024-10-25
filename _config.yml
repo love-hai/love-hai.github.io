@@ -4,7 +4,7 @@ email: xiahaifeng2000@gmail.com
 description: > 
   hai的学习笔记
 
-baseurl: https://github.com/love-hai/love-hai.github.io
+baseurl:
 url: https://love-hai.github.io
 
 permalink: /:year-:month/:title
