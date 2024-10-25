@@ -165,7 +165,7 @@ img {
     padding: 0.5rem;
 
     @include breakpoint(medium) {
-        margin-left: 22rem;
+        margin-left: 24rem;
     }
 }
 
@@ -719,8 +719,8 @@ img {
 
 .table-of-contents {
     z-index: 1;
-    background-color: var(--header_bg);
     position: absolute;
+    background-color: var(--header_bg);
     padding: 10px;
     border-left: 2px solid #efefef;
     width: 260px;
