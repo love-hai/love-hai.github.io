@@ -138,7 +138,6 @@ img {
 }
 
 .content {
-    display: flex;
     margin: 1.4em auto;
     z-index: 0;
     background: var(--content_bg);
@@ -163,11 +162,10 @@ img {
 }
 
 .main {
-    flex: 5;
     padding: 0.5rem;
 
     @include breakpoint(medium) {
-        margin-left: 5rem;
+        margin-left: 22rem;
     }
 }
 
@@ -721,7 +719,7 @@ img {
 
 
 .table-of-contents {
-    flex: 2;
+    z-index: 1;
     position: absolute;
     padding: 10px;
     border-left: 2px solid #efefef;
