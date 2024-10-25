@@ -6,12 +6,14 @@
 <body>
   <div class="content">
     {% if page.title %}
-    <div class="table-of-contents">
-      {% include toc.html html=content %}
+    <div class="book-content">
+      <div class="table-of-contents">
+        {% include toc.html html=content %}
+      </div>
+      <main class="main">
+        {{ content }}
+      </main>
     </div>
-    <main class="main">
-      {{ content }}
-    </main>
   </div>
   {% else %}
   {% include header.html %}
