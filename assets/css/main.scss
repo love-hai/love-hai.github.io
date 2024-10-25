@@ -162,7 +162,7 @@ img {
 }
 
 .main {
-    flex: 3;
+    flex: 5;
     padding: 0.5rem;
 
     @include breakpoint(medium) {
