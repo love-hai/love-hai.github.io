@@ -5,7 +5,7 @@ description: >
   hai的学习笔记
 
 baseurl: https://github.com/love-hai/love-hai.github.io
-url: https://love-hai.github.io/
+url: https://love-hai.github.io
 
 permalink: /:year-:month/:title
 timezone:
@@ -23,8 +23,6 @@ user:
   picAlt: "catbook"
   job: 学习使我不劳累
   aboutme: true # comment this out if you don't need the 'about' page.
-  
-plugins: ["jekyll-toc"]
 
 exclude:
   - README.md
