@@ -4,8 +4,8 @@ email: xiahaifeng2000@gmail.com
 description: > 
   hai的学习笔记
 
-baseurl: # the subpath of the site
-url: http://starry99.github.io/catbook # the base hostname & protocol for your site
+baseurl: https://github.com/love-hai/love-hai.github.io
+url: https://love-hai.github.io/
 
 permalink: /:year-:month/:title
 timezone:
@@ -21,7 +21,7 @@ user:
   name: lovehai
   pic: /assets/img/love_hai_main.jpg
   picAlt: "catbook"
-  job: a category-centric theme
+  job: 学习使我不劳累
   aboutme: true # comment this out if you don't need the 'about' page.
   
 plugins: ["jekyll-toc"]
