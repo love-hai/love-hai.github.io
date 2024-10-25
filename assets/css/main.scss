@@ -162,7 +162,7 @@ img {
 }
 
 .main {
-    flex: 4;
+    flex: 3;
     padding: 0.5rem;
 
     @include breakpoint(medium) {
@@ -723,7 +723,7 @@ img {
     position: absolute;
     padding: 10px;
     border-left: 2px solid #efefef;
-    width: 280px;
+    width: 350px;
     height: 600px;
     position: -webkit-sticky;
     position: sticky;
