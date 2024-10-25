@@ -1,6 +1,4 @@
---- 
---- 
-// do not delete two dashed lines
+--- --- // do not delete two dashed lines
 
 @import 'normalize';
 @import 'code_style';
@@ -142,7 +140,7 @@ img {
     z-index: 0;
     background: var(--content_bg);
     position: relative;
-    min-height: 85%;
+    min-height: 95%;
     border-radius: 15px;
     box-shadow: 0 0 2px 2px var(--shadow_color);
     padding-bottom: 2rem;
@@ -150,7 +148,7 @@ img {
     @include breakpoint(medium) {
         margin-left: auto;
         margin-right: auto;
-        max-width: 960px;
+        max-width: 1280px;
         padding-top: 2.5rem;
     }
 
@@ -162,7 +160,7 @@ img {
 }
 
 .main {
-    flex: 4;
+    flex: 3;
     padding: 0.5rem;
 
     @include breakpoint(medium) {
@@ -179,14 +177,14 @@ img {
             float: none;
         }
     }
-    
+
     @include mobile-only {
         margin-top: 2rem;
         margin-left: 1rem;
         margin-right: 1rem;
     }
 }
-    
+
 
 ::-webkit-scrollbar {
     width: 8px;
@@ -263,6 +261,7 @@ img {
 
 .archive_title {
     word-wrap: normal;
+
     @include breakpoint(medium) {
         max-width: 80%;
     }
@@ -358,8 +357,9 @@ img {
     font-weight: 700;
 }
 
-.theme_changer {   
+.theme_changer {
     cursor: pointer;
+
     input {
         display: none;
 
@@ -372,7 +372,7 @@ img {
             transition: box-shadow .5s ease 0s, transform .5s ease .1s;
 
             &:before {
-                
+
                 content: '';
                 width: inherit;
                 height: inherit;
@@ -383,7 +383,7 @@ img {
             }
 
             &:after {
-                
+
                 background: url('../img/s.png') no-repeat center;
                 border-radius: 50%;
                 content: '';
@@ -504,7 +504,7 @@ img {
     color: var(--post_text);
 
     @include breakpoint(medium) {
-        max-width: 33rem;
+        max-width: 55rem;
         margin-top: 5rem;
     }
 
