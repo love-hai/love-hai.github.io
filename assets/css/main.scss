@@ -162,7 +162,7 @@ img {
 }
 
 .main {
-    flex: 5;
+    flex: 4;
     padding: 0.5rem;
 
     @include breakpoint(medium) {
@@ -506,7 +506,7 @@ img {
     color: var(--post_text);
 
     @include breakpoint(medium) {
-        max-width: 55rem;
+        max-width: 88rem;
         margin-top: 5rem;
     }
 
