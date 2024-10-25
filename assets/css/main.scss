@@ -1,4 +1,6 @@
---- --- // do not delete two dashed lines
+--- 
+--- 
+// do not delete two dashed lines
 
 @import 'normalize';
 @import 'code_style';
@@ -140,7 +142,7 @@ img {
     z-index: 0;
     background: var(--content_bg);
     position: relative;
-    min-height: 95%;
+    min-height: 85%;
     border-radius: 15px;
     box-shadow: 0 0 2px 2px var(--shadow_color);
     padding-bottom: 2rem;
