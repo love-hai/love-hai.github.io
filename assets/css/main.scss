@@ -285,7 +285,6 @@ img {
    ========================================================================== */
 
 .header {
-    flex: 2;
     background-color: var(--header_bg);
     z-index: 1;
     position: absolute;
@@ -720,16 +719,17 @@ img {
 
 .table-of-contents {
     z-index: 1;
+    background-color: var(--header_bg);
     position: absolute;
     padding: 10px;
     border-left: 2px solid #efefef;
-    width: 280px;
+    width: 260px;
     height: 600px;
     position: -webkit-sticky;
     position: sticky;
     top: 40px;
-    margin-bottom: 80px;
-    margin-left: 30px;
+    margin-bottom: 40px;
+    margin-left: 10px;
     overflow-x: auto;
     overflow-y: auto;
 }
@@ -756,7 +756,7 @@ img {
 
 .table-of-contents li {
     display: block;
-    width: 260px;
+    width: 240px;
     padding: 10px;
     background-color: #ccc;
     cursor: pointer;
