@@ -21,7 +21,7 @@ user:
   name: lovehai
   pic: /assets/img/love_hai_main.jpg
   picAlt: "lovehai"
-  job: 学习使我不劳累
+  job: 学习使我快乐
   aboutme: true # comment this out if you don't need the 'about' page.
 
 exclude:
