@@ -101,6 +101,10 @@ git mv <oldfile> <newfile>
 | %s | 提交说明 |
 #### 查看最近两次提交 git log -p -2
 
+### git 常用命令
+1. git config --list 查看配置
+2. git config pull.rebase true 设置pull的时候默认使用rebase,在同一个分支上，在你推送的时候，其他人也推送了，这个时候你pull的时候就会有冲突，这个命令会先拉取远程的代码，然后把你的代码放在远程代码的后面，这样就不会有冲突了。
+
 
 
 
